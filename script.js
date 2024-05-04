@@ -22,14 +22,14 @@ control.addEventListener('click', () => {
 })
 
 // Default timer settings
-let s = 2100;
-timer.textContent = '35:00'
+let s = 1500;
+timer.textContent = '25:00'
 
 // Change timer settings with user input
 radio.addEventListener('change', () => {
   if (pomodoro.checked) {
-    timer.textContent = '35:00'
-    s = 2100
+    timer.textContent = '25:00'
+    s = 1500
   } else if (short.checked) {
     timer.textContent = '5:00'
     s = 300
