@@ -29,7 +29,7 @@ timer.textContent = '35:00'
 radio.addEventListener('change', () => {
   if (pomodoro.checked) {
     timer.textContent = '35:00'
-    s = 1200
+    s = 2100
   } else if (short.checked) {
     timer.textContent = '5:00'
     s = 300
