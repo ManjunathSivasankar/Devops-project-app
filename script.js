@@ -22,7 +22,7 @@ control.addEventListener('click', () => {
 })
 
 // Default timer settings
-let s = 1500;
+let s = 2100;
 timer.textContent = '35:00'
 
 // Change timer settings with user input
